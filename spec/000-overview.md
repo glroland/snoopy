@@ -15,8 +15,8 @@ I'm creating this application for these reasons:
 
 ## Constraints
 
-* Must run natively on iOS and Mac OS under a single, unified code base.
 * Core application must be written in Swift.
+* Must run natively on iOS and Mac OS under a single, unified code base using SwiftUI Multiplatform as the enabler.
 * AI functions (voice to text, LLM invocations, etc) can be written in Swift if natively supported.  If non-Apple components are needed to perform these functions in Swift, then PythonKit should be used to embed a Python interpreter into the application and standard AI components from the Python ecosystem must be used instead.  In this case, Python 3.12 or above must be used.
 * Voice-to-text and text-to-voice must run natively in the application with no cloud dependencies.  LLM inferencing must occur over an OpenAI compatible API.
 * AI Personas must be completely configurable via a directory structure that is bundled or compiled into the application.
