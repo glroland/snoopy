@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2C2A019B841A6650964D70CC /* SnoopyCore in Frameworks */ = {isa = PBXBuildFile; productRef = 489B62DE1A479926DCCFDB16 /* SnoopyCore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4E64D7213050E16600B95747 /* Snoopy.AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snoopy.AI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -13,6 +17,11 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4E64D7233050E16600B95747 /* Snoopy.AI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFolders = (
+				Resources/Personas,
+			);
 			path = Snoopy.AI;
 			sourceTree = "<group>";
 		};
@@ -23,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C2A019B841A6650964D70CC /* SnoopyCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +75,7 @@
 			);
 			name = Snoopy.AI;
 			packageProductDependencies = (
+				489B62DE1A479926DCCFDB16 /* SnoopyCore */,
 			);
 			productName = Snoopy.AI;
 			productReference = 4E64D7213050E16600B95747 /* Snoopy.AI.app */;
@@ -94,6 +105,9 @@
 			);
 			mainGroup = 4E64D7183050E16600B95747;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				39BE6F91607260C4A542CD3D /* XCLocalSwiftPackageReference "SnoopyCore" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4E64D7223050E16600B95747 /* Products */;
 			projectDirPath = "";
@@ -345,6 +359,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		39BE6F91607260C4A542CD3D /* XCLocalSwiftPackageReference "SnoopyCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SnoopyCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		489B62DE1A479926DCCFDB16 /* SnoopyCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39BE6F91607260C4A542CD3D /* XCLocalSwiftPackageReference "SnoopyCore" */;
+			productName = SnoopyCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4E64D7193050E16600B95747 /* Project object */;
 }
