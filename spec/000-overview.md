@@ -10,7 +10,7 @@
 Snoopy is a application that provides an audio interface to customizable AI intelligence.  The goal is to provide a human like way of interacting with one or more configurable AI personalities.  This application is for personal use by me and my family.  
 
 I'm creating this application for these reasons:
- * I am tired to primarily using reading and writing as the vehicle for interacting with AI.  I am also on conference calls a lot and would like a way of interacting with AI outside of/in parallel to that context while my hands are already full.
+ * I am tired of primarily using reading and writing as the vehicle for interacting with AI.  I am also on conference calls a lot and would like a way of interacting with AI outside of/in parallel to that context while my hands are already full.
  * My family has some ideas for passively using AI to listen to the sounds around then and getting feedback.  Their idea would be one of the personalities.
 
 ## Constraints

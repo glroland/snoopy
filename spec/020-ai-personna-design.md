@@ -8,21 +8,23 @@
 
 ## Purpose
 
-Why this piece of the app exists, in 2-4 sentences. What problem it solves for you.
+This application supports multiple AI personnas where their behaviors are defined
+as configuration.  This specification defines the structure of an AI personna as
+well as the Default, which is always provided with the application.
 
 ## Behavior
 
-A comprehensive description of how this area works today (or should work, if not
-yet built). Write it as the current state, not as a request. Cover the normal
-path and the edge cases you actually care about — skip ones you don't.
+The most fundamental portion of an AI Personna is defined its system prompt.
+That prompt defines the nature of the personna and how it should interpret
+and respond to user inquiries.
 
 ## Acceptance criteria
 
 Testable statements. Each one should be checkable by a human or a test, phrased
 as Given/When/Then or a plain assertion.
 
-- [ ] Given ___, when ___, then ___.
-- [ ] Given ___, when ___, then ___.
+- [ ] Given the main interaction page, when a user inquiry is received, then an LLM inference should be made.
+- [ ] Given the main interaction page, when an LLM inference is made, then the system prompt must be included in the conversation.
 
 ## Non-goals
 
